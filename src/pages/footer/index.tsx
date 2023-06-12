@@ -15,47 +15,52 @@ const Footer = () => {
 
     <nav aria-label="Footer Nav" className="mt-10">
       <ul className="flex flex-wrap justify-center font-light">
-        <li>
+        {(skillsInfo.display) ?
+        (<li>
           <a className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2]" href="#skills">
             {skillsInfo.title}
           </a>
-        </li>
+        </li>): null
+        }
 
-        <li>
+        {(workInfo.display) ?
+        (<li>
           <a className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2]" href="#experience">
             {workInfo.title}
           </a>
-        </li>
-
-        <li>
+        </li>): null}
+        { (bigProjectsInfo.display) ?
+        (<li>
           <a className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2]" href="#featured-projects">
             {bigProjectsInfo.title}
           </a>
-        </li>
+        </li>) : null}
 
-        <li>
+        {(openSourceProjectsInfo.display) ? 
+        (<li>
           <a className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2]" href="#open-source">
             {openSourceProjectsInfo.title}
           </a>
-        </li>
+        </li>): null}
 
-        <li>
+        {(educationInfo.display) ? (<li>
           <a className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2]" href="#education">
             {educationInfo.title}
           </a>
-        </li>
+        </li>): null}
 
-        <li>
+        {(achievementsInfo.display) ? (<li>
           <a className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2]" href="#achievements">
             {achievementsInfo.title}
           </a>
-        </li>
+        </li>):null}
 
-        <li>
+        {(blogInfo.display) ? (<li>
           <a className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2]" href="#musings">
             {blogInfo.title}
           </a>
-        </li>
+        </li>) : null}
+
       </ul>
     </nav>
 
