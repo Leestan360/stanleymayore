@@ -16,6 +16,7 @@ import {
   SiMysql,
   SiRubyonrails,
   SiRedux,
+  SiTypescript,
 } from "react-icons/si";
 
 const homeInfo = {
@@ -75,6 +76,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Ruby",
       fontAwesomeClassname: SiRuby,
+    },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: SiTypescript,
     },
     {
       skillName: "HTML",
@@ -241,57 +246,57 @@ const bigProjectsInfo = {
   projects: [
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectname: "Saayahealth",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectname: "Jaketech Electronics",
+      description: "Jaketech Electronics is an e-commerce startup located in Nairobi, Kenya.",
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/",
+          url: "http://jaketech.shop/",
         },
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JavaScript", "TypeScrip"],
+      stack: ["Ruby", "JavaScript", "Reactjs", "Rails", "TailwindCSS", "Redux", "Docker"],
     },
     {
       // image: require("./assets/images/nextuLogo.webp"),
-      projectname: "Nextu",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectname: "Skoolpesa",
+      description: "Skoolpesa is a payments gateway company that has it's headquarters in Canada.",
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/",
+          url: "http://skoolpesa.se/",
         },
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JaxScript", "TypeScrip"],
+      stack: ["Reactjs", "JavaScript", "TailwindCSS", "Azure", "Docker"],
     },
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectname: "Saayahealth",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectname: "Developer Portfolio",
+      description: "This is a portfolio template that's aimed at being open source",
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/",
+          url: "http://leestan360.github.io/portfolio/",
         },
         //  you can add extra buttons here.
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JavaScript", "TypeScript"],
+      stack: [ "Reactjs", "TypeScript", "TailwindCSS"],
     },
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectname: "Saayahealth",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectname: "Safe Space",
+      description: "Safe Space is a mental health application that's under development.",
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/",
+          url: "http://safespace.com/",
         },
         //  you can add extra buttons here.
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JavaScript", "TypeScript"],
+      stack: ["Reactjs", "JavaScript", "TailwindCSS"],
     },
   ],
   display: true, // Set false to hide this section, defaults to true
