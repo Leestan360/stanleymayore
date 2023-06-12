@@ -1,38 +1,53 @@
 import emoji from "react-easy-emoji";
-import {SiKubernetes, SiPostgresql, SiPython, SiReact, SiJavascript, SiAmazonaws, SiGooglecloud, SiDocker, SiPandas, SiTensorflow, SiJupyter, SiFastapi, SiMlflow, SiHtml5, SiGit, SiScikitlearn, SiLooker} from "react-icons/si"
-import {FaNode} from "react-icons/fa"
-import {TbBrandGoogleBigQuery} from "react-icons/tb"
-import {DiSpark} from "react-icons/di"
-
+import {
+  SiKubernetes,
+  SiPostgresql,
+  SiPython,
+  SiReact,
+  SiJavascript,
+  SiAmazonaws,
+  SiGooglecloud,
+  SiDocker,
+  SiPandas,
+  SiTensorflow,
+  SiJupyter,
+  SiFastapi,
+  SiMlflow,
+  SiHtml5,
+  SiGit,
+  SiScikitlearn,
+  SiLooker,
+} from "react-icons/si";
+import { FaNode } from "react-icons/fa";
+import { TbBrandGoogleBigQuery } from "react-icons/tb";
+import { DiSpark } from "react-icons/di";
 
 const homeInfo = {
   username: "Stanley Mayore",
-  greeting: "Hi all, I'm ",
+  greeting: "Hey You, I'm ",
   prefname: "Stanley",
   prefTitle: "Full Stack Software Developer",
   subtitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Reactjs / ReactNative, Rails, FastAPI and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer with a diverse skill set in both backend and frontend development. With a strong background in programming, I specialize in developing robust and efficient software solutions that meet the specific needs of clients and end-users. I am dedicated to staying up-to-date with the latest technologies and best practices in the industry, constantly seeking out new challenges to further enhance my skills and experience."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1NEXn1ttxKkbN3O0Gs-qga0icrhU4ZP2u/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 const socialMediaInfo = {
   github: "https://github.com/Leestan360",
-  linkedin: "https://www.linkedin.com/in/realonebebeto/",
-  gmail: "nberbetto@gmail.com",
-  gitlab: "https://gitlab.com/realonebebeto",
-  twitter: "https://twitter.com/realonbebeto",
-  kaggle: "https://kaggle.com/realonbebeto",
+  linkedin: "https://www.linkedin.com/in/stanley-mayore/",
+  gmail: "stanleymayore2@gmail.com",
+  twitter: "https://twitter.com/MayoreStanley",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: false // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 const headLine = {
-  text: "Fullstack Machine Learning/Data Engineer | Python | DataOps | MLOps"
-}
+  text: "Fullstack Software Developer | React | Ruby on Rails | FastAPI | DevOps",
+};
 
 // Skills Section
 
@@ -46,109 +61,108 @@ const skillsInfo = {
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  languageskills: [{
+  languageskills: [
+    {
       skillName: "Python",
-      fontAwesomeClassname: SiPython
+      fontAwesomeClassname: SiPython,
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: SiJavascript
+      fontAwesomeClassname: SiJavascript,
     },
     {
       skillName: "HTML",
-      fontAwesomeClassname: SiHtml5
-    }
-],
+      fontAwesomeClassname: SiHtml5,
+    },
+  ],
 
-  frameworkskills: [ {
+  frameworkskills: [
+    {
       skillName: "reactjs",
-      fontAwesomeClassname: SiReact
+      fontAwesomeClassname: SiReact,
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: FaNode
+      fontAwesomeClassname: FaNode,
     },
     {
       skillName: "Pandas",
-      fontAwesomeClassname: SiPandas
+      fontAwesomeClassname: SiPandas,
     },
     {
       skillName: "Tensorflow",
-      fontAwesomeClassname: SiTensorflow
+      fontAwesomeClassname: SiTensorflow,
     },
     {
       skillName: "Spark",
-      fontAwesomeClassname: DiSpark
+      fontAwesomeClassname: DiSpark,
     },
     {
       skillName: "FastAPI",
-      fontAwesomeClassname: SiFastapi
+      fontAwesomeClassname: SiFastapi,
     },
     {
       skillName: "Mlflow",
-      fontAwesomeClassname: SiMlflow
+      fontAwesomeClassname: SiMlflow,
     },
     {
       skillName: "Scikit-Learn",
-      fontAwesomeClassname: SiScikitlearn
+      fontAwesomeClassname: SiScikitlearn,
     },
-
   ],
 
   cloud: [
     {
       skillName: "GCP",
-      fontAwesomeClassname: SiGooglecloud
+      fontAwesomeClassname: SiGooglecloud,
     },
     {
       skillName: "AWS",
-      fontAwesomeClassname: SiAmazonaws
-    }
+      fontAwesomeClassname: SiAmazonaws,
+    },
   ],
 
   databaseskills: [
     {
       skillName: "PostgreSQL",
-      fontAwesomeClassname: SiPostgresql
+      fontAwesomeClassname: SiPostgresql,
     },
-        {
+    {
       skillName: "BigQuery",
-      fontAwesomeClassname: TbBrandGoogleBigQuery
-    }
+      fontAwesomeClassname: TbBrandGoogleBigQuery,
+    },
   ],
 
   others: [
-        {
+    {
       skillName: "docker",
-      fontAwesomeClassname: SiDocker
+      fontAwesomeClassname: SiDocker,
     },
     {
       skillName: "k8s",
-      fontAwesomeClassname: SiKubernetes
+      fontAwesomeClassname: SiKubernetes,
     },
     {
       skillName: "Jupyter",
-      fontAwesomeClassname: SiJupyter
+      fontAwesomeClassname: SiJupyter,
     },
     {
       skillName: "Git",
-      fontAwesomeClassname: SiGit
+      fontAwesomeClassname: SiGit,
     },
     {
-      skillName:"Looker",
-      fontAwesomeClassname: SiLooker
-    }
-
+      skillName: "Looker",
+      fontAwesomeClassname: SiLooker,
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
-
 
 // Experience Section
 const workInfo = {
@@ -164,8 +178,8 @@ const workInfo = {
       stack: ["Python", "JavaScript", "TypeScript", "k8s", "Docker"],
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ],
     },
     {
       role: "Front-End Developer",
@@ -176,8 +190,8 @@ const workInfo = {
       stack: ["Python", "JavaScript", "TypeScript", "k8s", "Docker"],
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ],
     },
     {
       role: "Software Engineer Intern",
@@ -186,8 +200,8 @@ const workInfo = {
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       stack: ["Python", "JavaScript", "TypeScript", "k8s", "Docker"],
-    }
-  ]
+    },
+  ],
 };
 
 // Education Section
@@ -204,8 +218,8 @@ const educationInfo = {
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ],
     },
     {
       schoolName: "Stanford University",
@@ -213,7 +227,10 @@ const educationInfo = {
       subHeader: "B.Sc in Computer Science",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ],
     },
     {
       schoolName: "Stanford University",
@@ -221,25 +238,29 @@ const educationInfo = {
       subHeader: "B.Sc in Computer Science",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ],
     },
-        {
+    {
       schoolName: "JKUAT University",
       // logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "B.Sc in Computer Science",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ],
+    },
+  ],
 };
-
-
 
 var openSourceProjectsInfo = {
   title: "OTHER PROJECTS",
-  display: true
-}
+  display: true,
+};
 
 // BigProjects Section
 
@@ -253,12 +274,11 @@ const bigProjectsInfo = {
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        
+          url: "http://saayahealth.com/",
+        },
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JavaScript", "TypeScrip"]
+      stack: ["Python", "JavaScript", "TypeScrip"],
     },
     {
       // image: require("./assets/images/nextuLogo.webp"),
@@ -267,11 +287,11 @@ const bigProjectsInfo = {
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+          url: "http://nextu.se/",
+        },
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JaxScript", "TypeScrip"]
+      stack: ["Python", "JaxScript", "TypeScrip"],
     },
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
@@ -280,12 +300,12 @@ const bigProjectsInfo = {
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+          url: "http://saayahealth.com/",
+        },
         //  you can add extra buttons here.
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JavaScript", "TypeScript"]
+      stack: ["Python", "JavaScript", "TypeScript"],
     },
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
@@ -294,17 +314,16 @@ const bigProjectsInfo = {
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+          url: "http://saayahealth.com/",
+        },
         //  you can add extra buttons here.
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JavaScript", "TypeScript"]
-    }
+      stack: ["Python", "JavaScript", "TypeScript"],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
-
 
 // Achievements Section
 const achievementsInfo = {
@@ -322,17 +341,17 @@ const achievementsInfo = {
       footerlink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing",
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing",
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html",
+        },
+      ],
     },
     {
       title: "Google Assistant Action",
@@ -343,9 +362,9 @@ const achievementsInfo = {
       footerlink: [
         {
           name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en",
+        },
+      ],
     },
 
     {
@@ -354,17 +373,16 @@ const achievementsInfo = {
       // image: require("./assets/images/pwaLogo.webp"),
       imagealt: "PWA Logo",
       footerlink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+          url: "https://pakistan-olx-1.firebaseapp.com/",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
-
 
 // Blogs Section
 
@@ -378,23 +396,33 @@ const blogInfo = {
       url: "https://medium.com/bb-tutorials-and-thoughts/how-to-get-started-with-react-typescript-version-749e7b3b16ab",
       title: "How To Get Started With React — Typescript Version",
       description:
-        "React is a javascript library for web applications. You can build features quickly with simple, declarative templates."
+        "React is a javascript library for web applications. You can build features quickly with simple, declarative templates.",
     },
     {
       url: "https://betterprogramming.pub/how-to-create-and-publish-react-typescript-npm-package-with-demo-and-automated-build-80c40ec28aca",
-      title: "How to Create and Publish React TypeScript npm Package With Demo and Automated Build",
-      description:
-        "Learn to create amazing projects from scratch"
+      title:
+        "How to Create and Publish React TypeScript npm Package With Demo and Automated Build",
+      description: "Learn to create amazing projects from scratch",
     },
     {
       url: "https://betterprogramming.pub/how-to-create-and-publish-react-typescript-npm-package-with-demo-and-automated-build-80c40ec28aca",
-      title: "How to Create and Publish React TypeScript npm Package With Demo and Automated Build",
-      description:
-        "Learn to create amazing projects from scratch"
-    }
+      title:
+        "How to Create and Publish React TypeScript npm Package With Demo and Automated Build",
+      description: "Learn to create amazing projects from scratch",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
-
-export {homeInfo, headLine, socialMediaInfo, skillsInfo, educationInfo, workInfo, bigProjectsInfo, openSourceProjectsInfo, achievementsInfo, blogInfo};
+export {
+  homeInfo,
+  headLine,
+  socialMediaInfo,
+  skillsInfo,
+  educationInfo,
+  workInfo,
+  bigProjectsInfo,
+  openSourceProjectsInfo,
+  achievementsInfo,
+  blogInfo,
+};

@@ -6,8 +6,8 @@ import {SiGithub, SiLinkedin} from "react-icons/si";
 const Home = () => {
   return (
     <div className="flex justify-center h-screen">      
-      <div className="lg:w-[55%] text-center xxs:my-auto xxs:w-full">
-        <h3 className="text-5xl font-thin xxs:text-4xl xsm:text-5xl">{homeInfo.greeting} <span className="font-medium">{homeInfo.prefname}</span></h3>
+      <div className="lg:w-[75%] text-center xxs:my-auto xxs:w-full">
+        <h3 className="text-5xl font-thin xxs:text-4xl xsm:text-5xl">{homeInfo.greeting} <span className="font-medium">{homeInfo.prefname}</span>,</h3>
         <p className="py-8 text-2xl font-thin xxs:text-xl xxs:py-4 xsm:text-2xl">
           {homeInfo.subtitle}
         </p>
