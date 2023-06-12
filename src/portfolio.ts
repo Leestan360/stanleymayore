@@ -1,6 +1,5 @@
 import emoji from "react-easy-emoji";
 import {
-  SiKubernetes,
   SiPostgresql,
   SiPython,
   SiReact,
@@ -8,19 +7,16 @@ import {
   SiAmazonaws,
   SiGooglecloud,
   SiDocker,
-  SiPandas,
-  SiTensorflow,
-  SiJupyter,
   SiFastapi,
-  SiMlflow,
   SiHtml5,
   SiGit,
-  SiScikitlearn,
-  SiLooker,
+  SiTailwindcss,
+  SiRuby,
+  SiCss3,
+  SiMysql,
+  SiRubyonrails,
+  SiRedux,
 } from "react-icons/si";
-import { FaNode } from "react-icons/fa";
-import { TbBrandGoogleBigQuery } from "react-icons/tb";
-import { DiSpark } from "react-icons/di";
 
 const homeInfo = {
   username: "Stanley Mayore",
@@ -56,11 +52,11 @@ const skillsInfo = {
   subTitle: "PROFICIENCIES",
   jd: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡  Develop and implement both the frontend and backend components of a web application."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡  Collaborate with designers and stakeholders to create user-friendly interfaces and ensure smooth user experiences."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡  Handle database management, server configuration, and API integrations to ensure seamless communication between different parts of the application."
     ),
   ],
 
@@ -77,44 +73,32 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: SiJavascript,
     },
     {
+      skillName: "Ruby",
+      fontAwesomeClassname: SiRuby,
+    },
+    {
       skillName: "HTML",
       fontAwesomeClassname: SiHtml5,
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: SiCss3,
     },
   ],
 
   frameworkskills: [
     {
-      skillName: "reactjs",
+      skillName: "Reactjs",
       fontAwesomeClassname: SiReact,
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: FaNode,
-    },
-    {
-      skillName: "Pandas",
-      fontAwesomeClassname: SiPandas,
-    },
-    {
-      skillName: "Tensorflow",
-      fontAwesomeClassname: SiTensorflow,
-    },
-    {
-      skillName: "Spark",
-      fontAwesomeClassname: DiSpark,
+      skillName: "Ruby on Rails",
+      fontAwesomeClassname: SiRubyonrails,
     },
     {
       skillName: "FastAPI",
       fontAwesomeClassname: SiFastapi,
-    },
-    {
-      skillName: "Mlflow",
-      fontAwesomeClassname: SiMlflow,
-    },
-    {
-      skillName: "Scikit-Learn",
-      fontAwesomeClassname: SiScikitlearn,
-    },
+    }
   ],
 
   cloud: [
@@ -134,31 +118,27 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: SiPostgresql,
     },
     {
-      skillName: "BigQuery",
-      fontAwesomeClassname: TbBrandGoogleBigQuery,
+      skillName: "MySQL",
+      fontAwesomeClassname: SiMysql,
     },
   ],
 
   others: [
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: SiDocker,
-    },
-    {
-      skillName: "k8s",
-      fontAwesomeClassname: SiKubernetes,
-    },
-    {
-      skillName: "Jupyter",
-      fontAwesomeClassname: SiJupyter,
     },
     {
       skillName: "Git",
       fontAwesomeClassname: SiGit,
     },
     {
-      skillName: "Looker",
-      fontAwesomeClassname: SiLooker,
+      skillName: "TailwindCSS",
+      fontAwesomeClassname: SiTailwindcss,
+    },
+    {
+      skillName: "Redux",
+      fontAwesomeClassname: SiRedux,
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -170,36 +150,28 @@ const workInfo = {
   display: true, //Set it to true to show workExperiences Section
   experiences: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Full-Stack Software Developer",
+      company: "Jaketech Electronics",
       // companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      stack: ["Python", "JavaScript", "TypeScript", "k8s", "Docker"],
+      date: "March 2023 – Present",
+      desc: "Developer at Jaketech Electronics, an e-commercer website. Jaketech Electronics is a startup that's located in Nairobi, Kenya.",
+      stack: ["Ruby", "JavaScript", "Reactjs", "Rails", "TailwindCSS", "Redux", "Docker"],
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Develop both the frontend and backend of the company website",
+        "Integrate Emails and Payment gateway",
       ],
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
+      company: "SkoolPesa",
       // companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      stack: ["Python", "JavaScript", "TypeScript", "k8s", "Docker"],
+      date: "Jan 2023 – Feb 2023",
+      desc: "SkoolPesa is a payments gateway company that has it's headquarters in Canada. I helped built there frontend website that they are using.",
+      stack: ["Reactjs", "JavaScript", "TailwindCSS", "Azure", "Docker"],
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Developed the frontend",
+        "Integrated the frontend with their API",
       ],
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      // companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      stack: ["Python", "JavaScript", "TypeScript", "k8s", "Docker"],
     },
   ],
 };
