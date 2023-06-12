@@ -121,13 +121,13 @@ const Footer = () => {
         </a>
       </li>
     </ul>
-    <p className="mx-auto mt-4 max-w-md text-center leading-relaxed text-gray-500">
+    {/* <p className="mx-auto mt-4 max-w-md text-center leading-relaxed text-gray-500">
       Theme by <span>
         <a href="https://github.com/Leestan360" rel="noreferrer" target='_blank'>lee</a>
         </span> and <span>
         <a href="https://github.com/realonbebeto" rel="noreferrer" target='_blank'>realonbebeto</a>
         </span>
-    </p>
+    </p> */}
   </div>
 </footer>
   )

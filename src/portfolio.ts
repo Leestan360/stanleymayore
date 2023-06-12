@@ -336,7 +336,7 @@ const achievementsInfo = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -366,7 +366,7 @@ const blogInfo = {
       description: "Learn to create amazing projects from scratch",
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 export {
