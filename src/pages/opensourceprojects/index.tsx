@@ -11,7 +11,7 @@ const OpenSourceProject = () => {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch('./profile.json')
+      fetch('/stanleymayore/profile.json')
         .then((result) => {
           if (result.ok) {
           return result.json()
