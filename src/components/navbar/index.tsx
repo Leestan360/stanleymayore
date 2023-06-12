@@ -42,44 +42,55 @@ const NavBar: React.FC<NavbarProps> = ({ onToggleTheme }) => {
         >
           {skillsInfo.title}
         </a>
+         {(workInfo.display) ? (
         <a
           href="#experience"
           className="px-4 py-2 hover:bg-gray-100  hover:text-[#1DA1F2] "
         >
           {workInfo.title}
-        </a>
+        </a>) : null
+        }
+        { (bigProjectsInfo.display) ? (
         <a
           href="#featured-projects"
           className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2] "
         >
           {bigProjectsInfo.title}
-        </a>
+        </a>) : null
+        }
+        { (openSourceProjectsInfo.display) ? (
         <a
           href="#open-source"
           className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2] "
         >
           {openSourceProjectsInfo.title}
-        </a>
-
-        <a
+        </a>): null
+        }
+        {(educationInfo.display) ?
+        (<a
           href="#education"
           className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2] "
         >
           {educationInfo.title}
-        </a>
+        </a>) : null
+        }
 
+        {(achievementsInfo.display)? (
         <a
           href="#achievements"
           className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2] "
         >
           {achievementsInfo.title}
-        </a>
-        <a
+        </a>): null
+        }
+        {(blogInfo.display) ?
+        (<a
           href="#musings"
           className="px-4 py-2 hover:bg-gray-100 hover:text-[#1DA1F2] "
         >
           {blogInfo.title}
-        </a>
+        </a>): null
+          }
       </div>
       <i
         className="fa-solid fa-moon cursor-pointer xxs:hidden xl:block my-auto"
@@ -156,7 +167,7 @@ const NavBar: React.FC<NavbarProps> = ({ onToggleTheme }) => {
               className="px-8 py-2 hover:bg-gray-100 hover:text-[#1DA1F2] "
               onClick={handleMenuClick}
             >
-              MUSINGS
+              PUBLICATIONS
             </a>
           </div>
           <i

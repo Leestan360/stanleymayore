@@ -1,7 +1,7 @@
 import {
   SiJupyter, SiHtml5, SiPython, SiJavascript, SiTypescript,
   SiKubernetes, SiReact, SiAmazonaws, SiGooglecloud, 
-  SiDocker
+  SiDocker, SiRedux, SiRubyonrails, SiTailwindcss, SiMicrosoftazure
 } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
 import { FaJava, FaCode } from "react-icons/fa";
@@ -36,8 +36,16 @@ export function returnIcon(language: any) {
     return SiGooglecloud
   } else if (RegExp("Node").test(language)){
     return FaNode
-  } else if (RegExp("Docker").test(language)){
+  } else if (RegExp("Redux").test(language)) {
+    return SiRedux
+} else if (RegExp("Docker").test(language)){
     return SiDocker
+  } else if (RegExp("Rails").test(language)) {
+    return SiRubyonrails
+  } else if (RegExp("TailwindCSS").test(language)) {
+    return SiTailwindcss
+  }  else if (RegExp("Azure").test(language)) {
+    return SiMicrosoftazure
   }
   else {
     return FaCode;

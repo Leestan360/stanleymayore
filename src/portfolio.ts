@@ -1,6 +1,5 @@
 import emoji from "react-easy-emoji";
 import {
-  SiKubernetes,
   SiPostgresql,
   SiPython,
   SiReact,
@@ -8,19 +7,17 @@ import {
   SiAmazonaws,
   SiGooglecloud,
   SiDocker,
-  SiPandas,
-  SiTensorflow,
-  SiJupyter,
   SiFastapi,
-  SiMlflow,
   SiHtml5,
   SiGit,
-  SiScikitlearn,
-  SiLooker,
+  SiTailwindcss,
+  SiRuby,
+  SiCss3,
+  SiMysql,
+  SiRubyonrails,
+  SiRedux,
+  SiTypescript,
 } from "react-icons/si";
-import { FaNode } from "react-icons/fa";
-import { TbBrandGoogleBigQuery } from "react-icons/tb";
-import { DiSpark } from "react-icons/di";
 
 const homeInfo = {
   username: "Stanley Mayore",
@@ -56,11 +53,11 @@ const skillsInfo = {
   subTitle: "PROFICIENCIES",
   jd: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡  Develop and implement both the frontend and backend components of a web application."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡  Collaborate with designers and stakeholders to create user-friendly interfaces and ensure smooth user experiences."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡  Handle database management, server configuration, and API integrations to ensure seamless communication between different parts of the application."
     ),
   ],
 
@@ -77,44 +74,36 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: SiJavascript,
     },
     {
+      skillName: "Ruby",
+      fontAwesomeClassname: SiRuby,
+    },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: SiTypescript,
+    },
+    {
       skillName: "HTML",
       fontAwesomeClassname: SiHtml5,
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: SiCss3,
     },
   ],
 
   frameworkskills: [
     {
-      skillName: "reactjs",
+      skillName: "Reactjs",
       fontAwesomeClassname: SiReact,
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: FaNode,
-    },
-    {
-      skillName: "Pandas",
-      fontAwesomeClassname: SiPandas,
-    },
-    {
-      skillName: "Tensorflow",
-      fontAwesomeClassname: SiTensorflow,
-    },
-    {
-      skillName: "Spark",
-      fontAwesomeClassname: DiSpark,
+      skillName: "Ruby on Rails",
+      fontAwesomeClassname: SiRubyonrails,
     },
     {
       skillName: "FastAPI",
       fontAwesomeClassname: SiFastapi,
-    },
-    {
-      skillName: "Mlflow",
-      fontAwesomeClassname: SiMlflow,
-    },
-    {
-      skillName: "Scikit-Learn",
-      fontAwesomeClassname: SiScikitlearn,
-    },
+    }
   ],
 
   cloud: [
@@ -134,31 +123,27 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: SiPostgresql,
     },
     {
-      skillName: "BigQuery",
-      fontAwesomeClassname: TbBrandGoogleBigQuery,
+      skillName: "MySQL",
+      fontAwesomeClassname: SiMysql,
     },
   ],
 
   others: [
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: SiDocker,
-    },
-    {
-      skillName: "k8s",
-      fontAwesomeClassname: SiKubernetes,
-    },
-    {
-      skillName: "Jupyter",
-      fontAwesomeClassname: SiJupyter,
     },
     {
       skillName: "Git",
       fontAwesomeClassname: SiGit,
     },
     {
-      skillName: "Looker",
-      fontAwesomeClassname: SiLooker,
+      skillName: "TailwindCSS",
+      fontAwesomeClassname: SiTailwindcss,
+    },
+    {
+      skillName: "Redux",
+      fontAwesomeClassname: SiRedux,
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -170,36 +155,28 @@ const workInfo = {
   display: true, //Set it to true to show workExperiences Section
   experiences: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Full-Stack Software Developer",
+      company: "Jaketech Electronics",
       // companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      stack: ["Python", "JavaScript", "TypeScript", "k8s", "Docker"],
+      date: "March 2023 – Present",
+      desc: "Developer at Jaketech Electronics, an e-commercer website. Jaketech Electronics is a startup that's located in Nairobi, Kenya.",
+      stack: ["Ruby", "JavaScript", "Reactjs", "Rails", "TailwindCSS", "Redux", "Docker"],
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Develop both the frontend and backend of the company website",
+        "Integrate Emails and Payment gateway",
       ],
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
+      company: "SkoolPesa",
       // companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      stack: ["Python", "JavaScript", "TypeScript", "k8s", "Docker"],
+      date: "Jan 2023 – Feb 2023",
+      desc: "SkoolPesa is a payments gateway company that has it's headquarters in Canada. I helped built there frontend website that they are using.",
+      stack: ["Reactjs", "JavaScript", "TailwindCSS", "Azure", "Docker"],
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Developed the frontend",
+        "Integrated the frontend with their API",
       ],
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      // companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      stack: ["Python", "JavaScript", "TypeScript", "k8s", "Docker"],
     },
   ],
 };
@@ -211,47 +188,25 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Moringa School",
       // logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "M.Sc. in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Software Development",
+      duration: "April 2022 - November 2022",
+      desc: "Took a course in fullstack software development that I finished and graduated successfully.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Frontend Development:- Reactjs",
+        "Backend Development:- Ruby on Rails",
       ],
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Jomo Kenyatta University of Agriculture and Technology (JKUAT)",
       // logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "B.Sc in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      subHeader: "B.Sc in Banking and Finance",
+      duration: "August 2018 - December 2021",
+      desc: "While in school, I did a project on effects of internet banking during my final year. ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ],
-    },
-    {
-      schoolName: "Stanford University",
-      // logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "B.Sc in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ],
-    },
-    {
-      schoolName: "JKUAT University",
-      // logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "B.Sc in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Graduated in December 2022",
+        "Got exposure that kick started my career in Tech",
       ],
     },
   ],
@@ -269,57 +224,57 @@ const bigProjectsInfo = {
   projects: [
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectname: "Saayahealth",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectname: "Jaketech Electronics",
+      description: "Jaketech Electronics is an e-commerce startup located in Nairobi, Kenya.",
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/",
+          url: "http://jaketech.shop/",
         },
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JavaScript", "TypeScrip"],
+      stack: ["Ruby", "JavaScript", "Reactjs", "Rails", "TailwindCSS", "Redux", "Docker"],
     },
     {
       // image: require("./assets/images/nextuLogo.webp"),
-      projectname: "Nextu",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectname: "Skoolpesa",
+      description: "Skoolpesa is a payments gateway company that has it's headquarters in Canada.",
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/",
+          url: "http://skoolpesa.se/",
         },
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JaxScript", "TypeScrip"],
+      stack: ["Reactjs", "JavaScript", "TailwindCSS", "Azure", "Docker"],
     },
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectname: "Saayahealth",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectname: "Developer Portfolio",
+      description: "This is a portfolio template that's aimed at being open source",
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/",
+          url: "http://leestan360.github.io/portfolio/",
         },
         //  you can add extra buttons here.
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JavaScript", "TypeScript"],
+      stack: [ "Reactjs", "TypeScript", "TailwindCSS"],
     },
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
-      projectname: "Saayahealth",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectname: "Safe Space",
+      description: "Safe Space is a mental health application that's under development.",
       footerlink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/",
+          url: "http://safespace.com/",
         },
         //  you can add extra buttons here.
       ],
       //  Only top 3 stack skills recommended here.
-      stack: ["Python", "JavaScript", "TypeScript"],
+      stack: ["Reactjs", "JavaScript", "TailwindCSS"],
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -381,7 +336,7 @@ const achievementsInfo = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -411,7 +366,7 @@ const blogInfo = {
       description: "Learn to create amazing projects from scratch",
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 export {
