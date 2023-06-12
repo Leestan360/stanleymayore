@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components {
+    #parent:hover #child {
+        @apply bg-gradient-to-r from-blue-500 to-purple-600;
+    }
+} */
+
+@font-face {
+  font-family: Apercu;
+  src: url(./fonts/Apercu-Light.eot);
+  src: url(./fonts/Apercu-Light.eot?#iefix) format("embedded-opentype"),
+    url(./fonts/Apercu-Light.woff2) format("woff2"),
+    url(./fonts/Apercu-Light.woff) format("woff"),
+    url(./fonts/Apercu-Light.ttf) format("truetype"),
+    url(./fonts/Apercu-Light.svg#Apercu-Light) format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Apercu;
+  src: url(./fonts/Apercu-Regular.eot);
+  src: url(./fonts/Apercu-Regular.eot?#iefix) format("embedded-opentype"),
+    url(./fonts/Apercu-Regular.woff2) format("woff2"),
+    url(./fonts/Apercu-Regular.woff) format("woff"),
+    url(./fonts/Apercu-Regular.ttf) format("truetype"),
+    url(./fonts/Apercu-Regular.svg#Apercu-Regular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Apercu;
+  src: url(./fonts/Apercu-Medium.eot);
+  src: url(./fonts/Apercu-Medium.eot?#iefix) format("embedded-opentype"),
+    url(./fonts/Apercu-Medium.woff2) format("woff2"),
+    url(./fonts/Apercu-Medium.woff) format("woff"),
+    url(./fonts/Apercu-Medium.ttf) format("truetype"),
+    url(./fonts/Apercu-Medium.svg#Apercu-Medium) format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Apercu;
+  src: url(./fonts/Apercu-Bold.eot);
+  src: url(./fonts/Apercu-Bold.eot?#iefix) format("embedded-opentype"),
+    url(./fonts/Apercu-Bold.woff2) format("woff2"),
+    url(./fonts/Apercu-Bold.woff) format("woff"),
+    url(./fonts/Apercu-Bold.ttf) format("truetype"),
+    url(./fonts/Apercu-Bold.svg#Apercu-Bold) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
