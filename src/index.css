@@ -11,7 +11,8 @@
 @font-face {
   font-family: Apercu;
   src: url(./fonts/Apercu-Light.eot);
-  src: url(./fonts/Apercu-Light.eot?#iefix) format("embedded-opentype"),
+  src:
+    url(./fonts/Apercu-Light.eot?#iefix) format("embedded-opentype"),
     url(./fonts/Apercu-Light.woff2) format("woff2"),
     url(./fonts/Apercu-Light.woff) format("woff"),
     url(./fonts/Apercu-Light.ttf) format("truetype"),
@@ -23,7 +24,8 @@
 @font-face {
   font-family: Apercu;
   src: url(./fonts/Apercu-Regular.eot);
-  src: url(./fonts/Apercu-Regular.eot?#iefix) format("embedded-opentype"),
+  src:
+    url(./fonts/Apercu-Regular.eot?#iefix) format("embedded-opentype"),
     url(./fonts/Apercu-Regular.woff2) format("woff2"),
     url(./fonts/Apercu-Regular.woff) format("woff"),
     url(./fonts/Apercu-Regular.ttf) format("truetype"),
@@ -35,7 +37,8 @@
 @font-face {
   font-family: Apercu;
   src: url(./fonts/Apercu-Medium.eot);
-  src: url(./fonts/Apercu-Medium.eot?#iefix) format("embedded-opentype"),
+  src:
+    url(./fonts/Apercu-Medium.eot?#iefix) format("embedded-opentype"),
     url(./fonts/Apercu-Medium.woff2) format("woff2"),
     url(./fonts/Apercu-Medium.woff) format("woff"),
     url(./fonts/Apercu-Medium.ttf) format("truetype"),
@@ -47,7 +50,8 @@
 @font-face {
   font-family: Apercu;
   src: url(./fonts/Apercu-Bold.eot);
-  src: url(./fonts/Apercu-Bold.eot?#iefix) format("embedded-opentype"),
+  src:
+    url(./fonts/Apercu-Bold.eot?#iefix) format("embedded-opentype"),
     url(./fonts/Apercu-Bold.woff2) format("woff2"),
     url(./fonts/Apercu-Bold.woff) format("woff"),
     url(./fonts/Apercu-Bold.ttf) format("truetype"),

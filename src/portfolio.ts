@@ -28,7 +28,7 @@ const homeInfo = {
     "A passionate Full Stack Software Developer with a diverse skill set in both backend and frontend development. With a strong background in programming, I specialize in developing robust and efficient software solutions that meet the specific needs of clients and end-users. I am dedicated to staying up-to-date with the latest technologies and best practices in the industry, constantly seeking out new challenges to further enhance my skills and experience."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1NEXn1ttxKkbN3O0Gs-qga0icrhU4ZP2u/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1olhq3oxHNl0mOhpldJdH-1sTjR53-DoG/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
