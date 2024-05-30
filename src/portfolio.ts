@@ -43,7 +43,7 @@ const socialMediaInfo = {
 };
 
 const headLine = {
-  text: "Fullstack Software Developer | React | Ruby on Rails | FastAPI | DevOps",
+  text: "Fullstack Software Developer | React | Ruby on Rails | FastAPI | DevOps | Nest.js | Next.js",
 };
 
 // Skills Section
