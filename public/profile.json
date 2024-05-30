@@ -1,7 +1,7 @@
 {
   "user": {
     "name": "Stanley Mayore",
-    "bio": "Passionate junior software developer experienced in backend and frontend development, proficient in programming, committed to staying updated.",
+    "bio": "Passionate software developer experienced in backend and frontend development, proficient in programming, committed to staying updated.",
     "isHireable": false,
     "avatarUrl": "https://avatars.githubusercontent.com/u/88834223?u=28fec09fcd7602cd91a74322ccad6e9bfb03bca0&v=4",
     "location": "Nairobi, Kenya",
@@ -12,11 +12,11 @@
           "node": {
             "name": "portfolio",
             "description": "This is a developer portfolio template. It's an open source project that's intended to be managed by BebetoRealon and I.",
-            "forkCount": 1,
+            "forkCount": 2,
             "stargazers": { "totalCount": 0 },
             "url": "https://github.com/Leestan360/portfolio",
             "id": "R_kgDOJMj-Cg",
-            "diskUsage": 10506,
+            "diskUsage": 13423,
             "primaryLanguage": { "name": "TypeScript", "color": "#3178c6" }
           }
         },
