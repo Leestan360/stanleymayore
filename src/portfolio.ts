@@ -17,6 +17,8 @@ import {
   SiRubyonrails,
   SiRedux,
   SiTypescript,
+  SiNextdotjs,
+  SiNestjs
 } from "react-icons/si";
 
 const homeInfo = {
@@ -103,6 +105,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "FastAPI",
       fontAwesomeClassname: SiFastapi,
+    },
+    {
+      skillName: "Nestjs",
+      fontAwesomeClassname: SiNestjs,
+    },
+    {
+      skillName: "Nextjs",
+      fontAwesomeClassname: SiNextdotjs,
     }
   ],
 
