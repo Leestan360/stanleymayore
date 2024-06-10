@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/stanleymayore/static/css/main.8aacd4ec.css",
-    "main.js": "/stanleymayore/static/js/main.1d3e4036.js",
+    "main.js": "/stanleymayore/static/js/main.b9f23f02.js",
     "static/js/978.67508c1e.chunk.js": "/stanleymayore/static/js/978.67508c1e.chunk.js",
     "static/media/Apercu-Medium.svg": "/stanleymayore/static/media/Apercu-Medium.e88654454c626b784668.svg",
     "static/media/Apercu-Regular.svg": "/stanleymayore/static/media/Apercu-Regular.588f73fade0c7e517497.svg",
@@ -25,11 +25,11 @@
     "static/media/Apercu-Light.woff2": "/stanleymayore/static/media/Apercu-Light.2a0d58e904ad6f326f94.woff2",
     "index.html": "/stanleymayore/index.html",
     "main.8aacd4ec.css.map": "/stanleymayore/static/css/main.8aacd4ec.css.map",
-    "main.1d3e4036.js.map": "/stanleymayore/static/js/main.1d3e4036.js.map",
+    "main.b9f23f02.js.map": "/stanleymayore/static/js/main.b9f23f02.js.map",
     "978.67508c1e.chunk.js.map": "/stanleymayore/static/js/978.67508c1e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8aacd4ec.css",
-    "static/js/main.1d3e4036.js"
+    "static/js/main.b9f23f02.js"
   ]
 }
