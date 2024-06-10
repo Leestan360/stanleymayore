@@ -18,7 +18,8 @@ import {
   SiRedux,
   SiTypescript,
   SiNextdotjs,
-  SiNestjs
+  SiNestjs,
+  SiDjango
 } from "react-icons/si";
 
 const homeInfo = {
@@ -113,6 +114,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Nextjs",
       fontAwesomeClassname: SiNextdotjs,
+    },
+    {
+      skillName: "Django",
+      fontAwesomeClassname: SiDjango,
     }
   ],
 
